@@ -16,6 +16,7 @@ resource "aws_s3_bucket_website_configuration" "bucket" {
   }
 }
 
+# Adding a comment to see what happens to registry version in TFE
 
 resource "aws_s3_bucket_acl" "bucket" {
   bucket = aws_s3_bucket.bucket.id
